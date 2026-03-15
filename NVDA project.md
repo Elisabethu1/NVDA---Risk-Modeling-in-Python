@@ -36,3 +36,10 @@ print(f"Historical VaR: {VaR_hist:.2%}, Monte Carlo VaR: {VaR_mc:.2%}")
 
 Full code and calculations are available in the notebook: NVDA - Daily Risk Modeling.ipynb.
 
+# Project Files
+NVA - Daily Risk Modeling.ipynb → Python notebook with full code and visualizations
+images/ → folder with charts (closing price, rolling VaR, daily returns histogram)
+NVDA_Risk_Report.pdf (optional) → full written report
+
+# Visualizations
+
