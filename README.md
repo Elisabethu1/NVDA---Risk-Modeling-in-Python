@@ -17,11 +17,11 @@ matplotlib
 
 Python code
 # Clone the repo
-git clone https://github.com/yourusername/nvda-risk-modeling.git
+git clone [https://github.com/yourusername/nvda-risk-modeling.git](https://github.com/Elisabethu1/NVDA---Risk-Modeling-in-Python)
 cd nvda-risk-modeling
 
 # Open Jupyter Notebook
-jupyter notebook nvda_risk_analysis.ipynb
+jupyter notebook NVDA - Daily Risk Modeling.ipynb
 
 Key Findings / Insights
 NVDA has moderate daily volatility (~3.1%), with rare extreme losses up to -16.97%.
