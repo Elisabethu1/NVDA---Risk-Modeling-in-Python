@@ -11,3 +11,27 @@ This project analyzes NVIDIA (NVDA) stock daily risk from Jan 2023 – Mar 2026.
   
 The goal is to quantify potential losses and provide actionable insights for investors and portfolio managers.
 
+Sample code
+import yfinance as yf
+import numpy as np
+import pandas as pd
+
+# Download NVDA stock data
+nvda = yf.download('NVDA', start='2023-01-01', end='2026-03-01', auto_adjust=True)
+
+# Compute daily returns
+nvda['Return'] = nvda['Close'].pct_change().dropna()
+
+# Historical VaR (95%)
+VaR_hist = nvda['Return'].quantile(0.05)
+
+# Monte Carlo VaR
+mu = nvda['Return'].mean()
+sigma = nvda['Return'].std()
+simulations = np.random.normal(mu, sigma, 100000)
+VaR_mc = np.percentile(simulations, 5)
+
+print(f"Historical VaR: {VaR_hist:.2%}, Monte Carlo VaR: {VaR_mc:.2%}")
+
+Full code and calculations are available in the notebook: NVDA - Daily Risk Modeling.ipynb.
+
