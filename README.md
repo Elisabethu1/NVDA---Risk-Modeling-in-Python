@@ -1,4 +1,4 @@
-# NVDA---Risk-Modeling-in-Python
+# NVDA - Risk-Modeling-in-Python
 
 Description
 Daily risk analysis of NVDA stock using VaR, Monte Carlo simulations, and Expected Shortfall.
