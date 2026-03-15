@@ -41,5 +41,14 @@ NVA - Daily Risk Modeling.ipynb → Python notebook with full code and visualiza
 images/ → folder with charts (closing price, rolling VaR, daily returns histogram)
 NVDA_Risk_Report.pdf (optional) → full written report
 
-# Visualizations
+# Topics covered / Visualizations
+Descriptive Statistics: mean, standard deviation, min/max daily returns
 
+Risk Metrics: Historical VaR, Monte Carlo VaR, Expected Shortfall (ES)
+Rolling Risk Analysis: 60-day rolling VaR
+Graphs / Visualizations:
+NVDA closing price over time
+Rolling 60-day VaR
+Daily returns histogram with VaR & ES highlighted
+
+Optional: Comparison with Apple (AAPL) for volatility context
