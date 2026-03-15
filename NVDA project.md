@@ -64,8 +64,50 @@ Graphs / Visualizations:
 
 NVDA closing price over time
 
-Rolling 60-day VaR
+# Key results
 
-Daily returns histogram with VaR & ES highlighted
+Descriptive statstics
+| Metric            | NVDA    |
+| ----------------- | ------- |
+| Mean Daily Return | 0.37%   |
+| Std Deviation     | 3.13%   |
+| Min Daily Return  | -16.97% |
+| Max Daily Return  | 24.37%  |
+
+Value at Risk (95% Confidence)
+| Metric                  | NVDA   |
+| ----------------------- | ------ |
+| Historical VaR          | -4.14% |
+| Monte Carlo VaR         | -4.75% |
+| Expected Shortfall (ES) | -6.20% |
+
+Rolling 60-Day VaR
+
+Mostly between -3.27% and -3.83%, slight increase in late Feb 2026
+
+Highlights dynamic risk trends over time
+
+# Visualizations
+
+Rolling 60-Day VaR
+
+Mostly between -3.27% and -3.83%, slight increase in late Feb 2026
+
+Highlights dynamic risk trends over time
+
+# Key Conclusions
+
+- NVDA exhibits moderate daily volatility (~3.1%) with rare extreme losses up to -16.97%.
+- 95% Value-at-Risk (VaR): Historical -4.14%, Monte Carlo -4.75%
+- Expected Shortfall (ES): -6.20%, highlighting tail risk for worst-case days
+- Rolling 60-day VaR identifies periods of elevated risk, often matching AI, earnings, or regulatory events.
+- Compared to Apple, NVDA shows higher volatility and downside risk, emphasizing the need for position sizing and hedging strategies.
+- The analysis provides quantitative tools for informed portfolio risk management.
+
+# References / Data Sources
+
+- Yahoo Finance (yfinance)
+- Bloomberg, CNBC, Wall Street Journal
+- Python libraries: pandas, NumPy, matplotlib
 
 Comparison with Apple (AAPL) for volatility context
