@@ -17,7 +17,7 @@ matplotlib
 
 Python code
 # Clone the repo
-git clone [https://github.com/yourusername/nvda-risk-modeling.git](https://github.com/Elisabethu1/NVDA---Risk-Modeling-in-Python)
+git clone (https://github.com/Elisabethu1/NVDA---Risk-Modeling-in-Python)
 cd nvda-risk-modeling
 
 # Open Jupyter Notebook
